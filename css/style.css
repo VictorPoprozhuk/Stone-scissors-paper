@@ -96,12 +96,15 @@ img {
 
 .user__choice {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 3rem;
 }
 .user__choice img {
   height: 12rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border-radius: 40%;
   cursor: pointer;
 }

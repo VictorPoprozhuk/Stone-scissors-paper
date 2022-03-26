@@ -99,12 +99,13 @@ img {
 
 .user__choice {
    display: flex;
-   gap: 20px;
+   gap: 2rem;
    margin-bottom: 2rem;
    margin-top: 3rem;
 
    img {
       height: 12rem;
+      width: fit-content;
       border-radius: 40%;
       cursor: pointer;
    }

@@ -52,7 +52,7 @@ userChoise.forEach((item) => {
             winOrLose.textContent = 'Your move';
             compChoisePic.src = './img/choise2.png';
             compChoisePic.style.background = 'none';
-         }, 900);
+         }, 500);
       },500);
    });
 });

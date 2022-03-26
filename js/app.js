@@ -1,4 +1,4 @@
-const userScore = document.querySelector('.header__score__user');
+﻿ const userScore = document.querySelector('.header__score__user');
 const compScore = document.querySelector('.header__score__comp');
 const winOrLose = document.querySelector('.text');
 const userChoise = document.querySelectorAll('.choise');
@@ -44,6 +44,6 @@ function compChoise() {
 }
 
 newGame.addEventListener('click', () => {
-   userScore.textContent = 0;
+   compScore.textContent = 0;
    userScore.textContent = 0;
 });
